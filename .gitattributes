@@ -1,0 +1,5 @@
+*.ini linguist-vendored=false
+*.ini linguist-generated=false
+*.ini linguist-documentation=false
+*.ini linguist-detectable=true
+
