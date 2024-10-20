@@ -26,14 +26,19 @@
 
 # Unity-CPP
 
+  <br>
 
 https://sourceforge.net/projects/mingw/
+
+  <br>
 
 ### Make an EXE
 
 ```bash
 g++ main.cpp -o main.exe
 ```
+
+  <br>
 
 or Run: exemake.bat
 
@@ -42,6 +47,7 @@ or Run: exemake.bat
 ```bash
 g++ main.cpp -o main.dll
 ```
+  <br>
 
 or Run: dllmake.bat
 
@@ -61,10 +67,14 @@ https://www.msys2.org/
 pacman -Syu
 ```
 
+  <br>
+
 ```bash
 pacman -S mingw-w64-ucrt-x86_64-gcc
 pacman -S mingw-w64-x86_64-toolchain
 ```
+
+  <br>
 
 ```bash
 cl /LD backend.cpp /link /out:backend.dll
